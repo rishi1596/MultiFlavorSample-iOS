@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SoftTech copy.xcscheme_^#shared#^_</key>
+		<key>MaxTech.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -48,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>05A74D0923B783F6000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05DE7E8523B793EC004ECEEA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
