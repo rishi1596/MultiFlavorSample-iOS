@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  MultiFlavorSample
 //
-//  Created by Fenil Jain on 28/12/19.
+//  Created by Rishabh Jain on 28/12/19.
 //  Copyright © 2019 Rishabh Jain. All rights reserved.
 //
 

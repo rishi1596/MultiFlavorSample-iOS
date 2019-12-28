@@ -4,10 +4,53 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MultiFlavorSample.xcscheme_^#shared#^_</key>
+		<key>SoftTech copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SoftTech.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>05A74C7923B759C6000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05A74C9123B759C8000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05A74C9C23B759C8000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05A74CB123B75C6F000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05A74CC623B75D13000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05A74CF223B77FE9000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05A74D0923B783F6000AC144</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
