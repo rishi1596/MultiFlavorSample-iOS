@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05901E5423CDFA79006DBDCB /* AppConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DE7EAF23B7957D004ECEEA /* AppConstants.h */; };
+		05901E5523CDFA84006DBDCB /* AppConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DE7E9823B79438004ECEEA /* AppConstants.h */; };
+		05901E5623CDFA8D006DBDCB /* AppConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A74CDB23B763E1000AC144 /* AppConstants.h */; };
 		05A74C7F23B759C6000AC144 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C7E23B759C6000AC144 /* AppDelegate.m */; };
 		05A74C8223B759C6000AC144 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C8123B759C6000AC144 /* ViewController.m */; };
 		05A74C8523B759C6000AC144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8323B759C6000AC144 /* Main.storyboard */; };
@@ -16,14 +19,12 @@
 		05A74C9723B759C8000AC144 /* MultiFlavorSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C9623B759C8000AC144 /* MultiFlavorSampleTests.m */; };
 		05A74CA223B759C8000AC144 /* MultiFlavorSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74CA123B759C8000AC144 /* MultiFlavorSampleUITests.m */; };
 		05A74CDE23B76512000AC144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A74CDD23B76512000AC144 /* Images.xcassets */; };
-		05A74CE023B77672000AC144 /* AppConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A74CDB23B763E1000AC144 /* AppConstants.h */; };
 		05DE7E8923B793EC004ECEEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C8123B759C6000AC144 /* ViewController.m */; };
 		05DE7E8A23B793EC004ECEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C8C23B759C8000AC144 /* main.m */; };
 		05DE7E8B23B793EC004ECEEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C7E23B759C6000AC144 /* AppDelegate.m */; };
 		05DE7E8E23B793EC004ECEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8823B759C8000AC144 /* LaunchScreen.storyboard */; };
 		05DE7E9023B793EC004ECEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8623B759C8000AC144 /* Assets.xcassets */; };
 		05DE7E9123B793EC004ECEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8323B759C6000AC144 /* Main.storyboard */; };
-		05DE7E9923B79438004ECEEA /* AppConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DE7E9823B79438004ECEEA /* AppConstants.h */; };
 		05DE7E9B23B7944A004ECEEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DE7E9A23B7944A004ECEEA /* Images.xcassets */; };
 		05DE7EA023B79552004ECEEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C8123B759C6000AC144 /* ViewController.m */; };
 		05DE7EA123B79552004ECEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A74C8C23B759C8000AC144 /* main.m */; };
@@ -31,7 +32,6 @@
 		05DE7EA523B79552004ECEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8823B759C8000AC144 /* LaunchScreen.storyboard */; };
 		05DE7EA723B79552004ECEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8623B759C8000AC144 /* Assets.xcassets */; };
 		05DE7EA823B79552004ECEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05A74C8323B759C6000AC144 /* Main.storyboard */; };
-		05DE7EB023B7957D004ECEEA /* AppConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DE7EAF23B7957D004ECEEA /* AppConstants.h */; };
 		05DE7EB223B7958F004ECEEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DE7EB123B7958F004ECEEA /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -215,7 +215,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A74CE023B77672000AC144 /* AppConstants.h in Headers */,
+				05901E5623CDFA8D006DBDCB /* AppConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +223,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DE7E9923B79438004ECEEA /* AppConstants.h in Headers */,
+				05901E5523CDFA84006DBDCB /* AppConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +231,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DE7EB023B7957D004ECEEA /* AppConstants.h in Headers */,
+				05901E5423CDFA79006DBDCB /* AppConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,10 +242,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05A74CA623B759C8000AC144 /* Build configuration list for PBXNativeTarget "SoftTech" */;
 			buildPhases = (
-				05A74CDF23B7766C000AC144 /* Headers */,
 				05A74C7623B759C6000AC144 /* Sources */,
 				05A74C7723B759C6000AC144 /* Frameworks */,
 				05A74C7823B759C6000AC144 /* Resources */,
+				05A74CDF23B7766C000AC144 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -555,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -608,7 +608,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -619,9 +619,11 @@
 		05A74CA723B759C8000AC144 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/MultiFlavorSample/SoftTech/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,6 +638,7 @@
 		05A74CA823B759C8000AC144 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -723,6 +726,7 @@
 		05DE7E9323B793EC004ECEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -740,6 +744,7 @@
 		05DE7E9423B793EC004ECEEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -757,6 +762,7 @@
 		05DE7EAA23B79552004ECEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -774,6 +780,7 @@
 		05DE7EAB23B79552004ECEEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";

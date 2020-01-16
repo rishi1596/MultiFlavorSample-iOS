@@ -10,8 +10,8 @@
 #define AppConstants_h
 
 
-#define COMPANY_NAME @"SoftTech Company"
-#define COMPANY_DESCRIPTION @"DUMMY DATA IT"
+#define COMPANY_NAME @"SoftTech"
+#define COMPANY_DESCRIPTION @"Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Arcu odio ut sem nulla. Sit amet consectetur adipiscing elit duis. Congue mauris rhoncus aenean vel elit scelerisque. Augue lacus viverra vitae congue."
 
 #define APP_BACKGROUND_COLOR [UIColor blueColor]
 

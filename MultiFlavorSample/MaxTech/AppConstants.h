@@ -10,8 +10,8 @@
 #define AppConstants_h
 
 
-#define COMPANY_NAME @"MAX Company"
-#define COMPANY_DESCRIPTION @"DUMMY DATA IT"
+#define COMPANY_NAME @"MaxTech"
+#define COMPANY_DESCRIPTION @"Ipsum dolor sit amet consectetur adipiscing elit duis tristique. A pellentesque sit amet porttitor eget dolor. Est velit egestas dui id ornare. Id velit ut tortor pretium viverra suspendisse potenti nullam ac."
 
 #define APP_BACKGROUND_COLOR [UIColor blueColor]
 
